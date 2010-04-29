@@ -87,7 +87,7 @@ public class Escenario extends JPanel
        GPanel.drawImage(fondo, 0,0,null);
        if ( !actores.isEmpty() )
         {
-           System.out.println("numero de actores: " + actores.size());
+          // System.out.println("numero de actores: " + actores.size());
            for ( Actor personaje : actores )
            {
               personaje.dibujar(GPanel);
